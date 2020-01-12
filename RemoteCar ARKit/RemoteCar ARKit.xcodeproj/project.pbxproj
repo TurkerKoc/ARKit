@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429D382122DBCD5D00CB3AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D382022DBCD5D00CB3AD8 /* AppDelegate.swift */; };
+		429D382322DBCD5D00CB3AD8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 429D382222DBCD5D00CB3AD8 /* art.scnassets */; };
+		429D382522DBCD5D00CB3AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D382422DBCD5D00CB3AD8 /* ViewController.swift */; };
+		429D382822DBCD5D00CB3AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429D382622DBCD5D00CB3AD8 /* Main.storyboard */; };
+		429D382A22DBCD5F00CB3AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429D382922DBCD5F00CB3AD8 /* Assets.xcassets */; };
+		429D382D22DBCD5F00CB3AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429D382B22DBCD5F00CB3AD8 /* LaunchScreen.storyboard */; };
+		429D383822DBCD5F00CB3AD8 /* RemoteCar_ARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D383722DBCD5F00CB3AD8 /* RemoteCar_ARKitTests.swift */; };
+		429D384322DBCD5F00CB3AD8 /* RemoteCar_ARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D384222DBCD5F00CB3AD8 /* RemoteCar_ARKitUITests.swift */; };
+		429D385122DBCDB300CB3AD8 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D385022DBCDB300CB3AD8 /* OverlayPlane.swift */; };
+		429D385322DBCDC600CB3AD8 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 429D385222DBCDC600CB3AD8 /* overlay_grid.png */; };
+		429D385522DBCF3800CB3AD8 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 429D385422DBCF3800CB3AD8 /* car.dae */; };
+		42B3FDE422DBDD9C009B451C /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3FDE322DBDD9C009B451C /* GameButton.swift */; };
+		42B3FDE622DBE443009B451C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B3FDE522DBE443009B451C /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429D383422DBCD5F00CB3AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429D381522DBCD5D00CB3AD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429D381C22DBCD5D00CB3AD8;
+			remoteInfo = "RemoteCar ARKit";
+		};
+		429D383F22DBCD5F00CB3AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429D381522DBCD5D00CB3AD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429D381C22DBCD5D00CB3AD8;
+			remoteInfo = "RemoteCar ARKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		429D381D22DBCD5D00CB3AD8 /* RemoteCar ARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemoteCar ARKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429D382022DBCD5D00CB3AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		429D382222DBCD5D00CB3AD8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		429D382422DBCD5D00CB3AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		429D382722DBCD5D00CB3AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		429D382922DBCD5F00CB3AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		429D382C22DBCD5F00CB3AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		429D382E22DBCD5F00CB3AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429D383322DBCD5F00CB3AD8 /* RemoteCar ARKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RemoteCar ARKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429D383722DBCD5F00CB3AD8 /* RemoteCar_ARKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCar_ARKitTests.swift; sourceTree = "<group>"; };
+		429D383922DBCD5F00CB3AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429D383E22DBCD5F00CB3AD8 /* RemoteCar ARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RemoteCar ARKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429D384222DBCD5F00CB3AD8 /* RemoteCar_ARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCar_ARKitUITests.swift; sourceTree = "<group>"; };
+		429D384422DBCD5F00CB3AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429D385022DBCDB300CB3AD8 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		429D385222DBCDC600CB3AD8 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+		429D385422DBCF3800CB3AD8 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		42B3FDE322DBDD9C009B451C /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		42B3FDE522DBE443009B451C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429D381A22DBCD5D00CB3AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D383022DBCD5F00CB3AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D383B22DBCD5F00CB3AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429D381422DBCD5D00CB3AD8 = {
+			isa = PBXGroup;
+			children = (
+				429D381F22DBCD5D00CB3AD8 /* RemoteCar ARKit */,
+				429D383622DBCD5F00CB3AD8 /* RemoteCar ARKitTests */,
+				429D384122DBCD5F00CB3AD8 /* RemoteCar ARKitUITests */,
+				429D381E22DBCD5D00CB3AD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429D381E22DBCD5D00CB3AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429D381D22DBCD5D00CB3AD8 /* RemoteCar ARKit.app */,
+				429D383322DBCD5F00CB3AD8 /* RemoteCar ARKitTests.xctest */,
+				429D383E22DBCD5F00CB3AD8 /* RemoteCar ARKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429D381F22DBCD5D00CB3AD8 /* RemoteCar ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				429D382022DBCD5D00CB3AD8 /* AppDelegate.swift */,
+				429D382222DBCD5D00CB3AD8 /* art.scnassets */,
+				429D382422DBCD5D00CB3AD8 /* ViewController.swift */,
+				429D385422DBCF3800CB3AD8 /* car.dae */,
+				429D385022DBCDB300CB3AD8 /* OverlayPlane.swift */,
+				42B3FDE522DBE443009B451C /* Models.swift */,
+				429D385222DBCDC600CB3AD8 /* overlay_grid.png */,
+				429D382622DBCD5D00CB3AD8 /* Main.storyboard */,
+				429D382922DBCD5F00CB3AD8 /* Assets.xcassets */,
+				429D382B22DBCD5F00CB3AD8 /* LaunchScreen.storyboard */,
+				429D382E22DBCD5F00CB3AD8 /* Info.plist */,
+				42B3FDE322DBDD9C009B451C /* GameButton.swift */,
+			);
+			path = "RemoteCar ARKit";
+			sourceTree = "<group>";
+		};
+		429D383622DBCD5F00CB3AD8 /* RemoteCar ARKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				429D383722DBCD5F00CB3AD8 /* RemoteCar_ARKitTests.swift */,
+				429D383922DBCD5F00CB3AD8 /* Info.plist */,
+			);
+			path = "RemoteCar ARKitTests";
+			sourceTree = "<group>";
+		};
+		429D384122DBCD5F00CB3AD8 /* RemoteCar ARKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				429D384222DBCD5F00CB3AD8 /* RemoteCar_ARKitUITests.swift */,
+				429D384422DBCD5F00CB3AD8 /* Info.plist */,
+			);
+			path = "RemoteCar ARKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429D381C22DBCD5D00CB3AD8 /* RemoteCar ARKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429D384722DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKit" */;
+			buildPhases = (
+				429D381922DBCD5D00CB3AD8 /* Sources */,
+				429D381A22DBCD5D00CB3AD8 /* Frameworks */,
+				429D381B22DBCD5D00CB3AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RemoteCar ARKit";
+			productName = "RemoteCar ARKit";
+			productReference = 429D381D22DBCD5D00CB3AD8 /* RemoteCar ARKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		429D383222DBCD5F00CB3AD8 /* RemoteCar ARKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429D384A22DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKitTests" */;
+			buildPhases = (
+				429D382F22DBCD5F00CB3AD8 /* Sources */,
+				429D383022DBCD5F00CB3AD8 /* Frameworks */,
+				429D383122DBCD5F00CB3AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429D383522DBCD5F00CB3AD8 /* PBXTargetDependency */,
+			);
+			name = "RemoteCar ARKitTests";
+			productName = "RemoteCar ARKitTests";
+			productReference = 429D383322DBCD5F00CB3AD8 /* RemoteCar ARKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		429D383D22DBCD5F00CB3AD8 /* RemoteCar ARKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429D384D22DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKitUITests" */;
+			buildPhases = (
+				429D383A22DBCD5F00CB3AD8 /* Sources */,
+				429D383B22DBCD5F00CB3AD8 /* Frameworks */,
+				429D383C22DBCD5F00CB3AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429D384022DBCD5F00CB3AD8 /* PBXTargetDependency */,
+			);
+			name = "RemoteCar ARKitUITests";
+			productName = "RemoteCar ARKitUITests";
+			productReference = 429D383E22DBCD5F00CB3AD8 /* RemoteCar ARKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429D381522DBCD5D00CB3AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Turker Koc";
+				TargetAttributes = {
+					429D381C22DBCD5D00CB3AD8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					429D383222DBCD5F00CB3AD8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 429D381C22DBCD5D00CB3AD8;
+					};
+					429D383D22DBCD5F00CB3AD8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 429D381C22DBCD5D00CB3AD8;
+					};
+				};
+			};
+			buildConfigurationList = 429D381822DBCD5D00CB3AD8 /* Build configuration list for PBXProject "RemoteCar ARKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 429D381422DBCD5D00CB3AD8;
+			productRefGroup = 429D381E22DBCD5D00CB3AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429D381C22DBCD5D00CB3AD8 /* RemoteCar ARKit */,
+				429D383222DBCD5F00CB3AD8 /* RemoteCar ARKitTests */,
+				429D383D22DBCD5F00CB3AD8 /* RemoteCar ARKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429D381B22DBCD5D00CB3AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429D382322DBCD5D00CB3AD8 /* art.scnassets in Resources */,
+				429D385322DBCDC600CB3AD8 /* overlay_grid.png in Resources */,
+				429D382D22DBCD5F00CB3AD8 /* LaunchScreen.storyboard in Resources */,
+				429D385522DBCF3800CB3AD8 /* car.dae in Resources */,
+				429D382A22DBCD5F00CB3AD8 /* Assets.xcassets in Resources */,
+				429D382822DBCD5D00CB3AD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D383122DBCD5F00CB3AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D383C22DBCD5F00CB3AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429D381922DBCD5D00CB3AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429D382522DBCD5D00CB3AD8 /* ViewController.swift in Sources */,
+				42B3FDE422DBDD9C009B451C /* GameButton.swift in Sources */,
+				429D385122DBCDB300CB3AD8 /* OverlayPlane.swift in Sources */,
+				429D382122DBCD5D00CB3AD8 /* AppDelegate.swift in Sources */,
+				42B3FDE622DBE443009B451C /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D382F22DBCD5F00CB3AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429D383822DBCD5F00CB3AD8 /* RemoteCar_ARKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429D383A22DBCD5F00CB3AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429D384322DBCD5F00CB3AD8 /* RemoteCar_ARKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429D383522DBCD5F00CB3AD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429D381C22DBCD5D00CB3AD8 /* RemoteCar ARKit */;
+			targetProxy = 429D383422DBCD5F00CB3AD8 /* PBXContainerItemProxy */;
+		};
+		429D384022DBCD5F00CB3AD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429D381C22DBCD5D00CB3AD8 /* RemoteCar ARKit */;
+			targetProxy = 429D383F22DBCD5F00CB3AD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		429D382622DBCD5D00CB3AD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429D382722DBCD5D00CB3AD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		429D382B22DBCD5F00CB3AD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429D382C22DBCD5F00CB3AD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		429D384522DBCD5F00CB3AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		429D384622DBCD5F00CB3AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429D384822DBCD5F00CB3AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		429D384922DBCD5F00CB3AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		429D384B22DBCD5F00CB3AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.RemoteCar-ARKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteCar ARKit.app/RemoteCar ARKit";
+			};
+			name = Debug;
+		};
+		429D384C22DBCD5F00CB3AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.RemoteCar-ARKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteCar ARKit.app/RemoteCar ARKit";
+			};
+			name = Release;
+		};
+		429D384E22DBCD5F00CB3AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.RemoteCar-ARKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RemoteCar ARKit";
+			};
+			name = Debug;
+		};
+		429D384F22DBCD5F00CB3AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "RemoteCar ARKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.RemoteCar-ARKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RemoteCar ARKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429D381822DBCD5D00CB3AD8 /* Build configuration list for PBXProject "RemoteCar ARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429D384522DBCD5F00CB3AD8 /* Debug */,
+				429D384622DBCD5F00CB3AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429D384722DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429D384822DBCD5F00CB3AD8 /* Debug */,
+				429D384922DBCD5F00CB3AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429D384A22DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429D384B22DBCD5F00CB3AD8 /* Debug */,
+				429D384C22DBCD5F00CB3AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429D384D22DBCD5F00CB3AD8 /* Build configuration list for PBXNativeTarget "RemoteCar ARKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429D384E22DBCD5F00CB3AD8 /* Debug */,
+				429D384F22DBCD5F00CB3AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429D381522DBCD5D00CB3AD8 /* Project object */;
+}

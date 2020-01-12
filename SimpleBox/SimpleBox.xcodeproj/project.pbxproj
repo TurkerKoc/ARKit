@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F26EE622C95D7B0005E702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F26EE522C95D7B0005E702 /* AppDelegate.swift */; };
+		42F26EE822C95D7B0005E702 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F26EE722C95D7B0005E702 /* art.scnassets */; };
+		42F26EEA22C95D7B0005E702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F26EE922C95D7B0005E702 /* ViewController.swift */; };
+		42F26EED22C95D7B0005E702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F26EEB22C95D7B0005E702 /* Main.storyboard */; };
+		42F26EEF22C95D7C0005E702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F26EEE22C95D7C0005E702 /* Assets.xcassets */; };
+		42F26EF222C95D7C0005E702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F26EF022C95D7C0005E702 /* LaunchScreen.storyboard */; };
+		42F26EFD22C95D7D0005E702 /* SimpleBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F26EFC22C95D7D0005E702 /* SimpleBoxTests.swift */; };
+		42F26F0822C95D7D0005E702 /* SimpleBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F26F0722C95D7D0005E702 /* SimpleBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F26EF922C95D7D0005E702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F26EDA22C95D7B0005E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F26EE122C95D7B0005E702;
+			remoteInfo = SimpleBox;
+		};
+		42F26F0422C95D7D0005E702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F26EDA22C95D7B0005E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F26EE122C95D7B0005E702;
+			remoteInfo = SimpleBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F26EE222C95D7B0005E702 /* SimpleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F26EE522C95D7B0005E702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42F26EE722C95D7B0005E702 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		42F26EE922C95D7B0005E702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42F26EEC22C95D7B0005E702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F26EEE22C95D7C0005E702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F26EF122C95D7C0005E702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42F26EF322C95D7D0005E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F26EF822C95D7D0005E702 /* SimpleBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F26EFC22C95D7D0005E702 /* SimpleBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxTests.swift; sourceTree = "<group>"; };
+		42F26EFE22C95D7D0005E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F26F0322C95D7D0005E702 /* SimpleBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F26F0722C95D7D0005E702 /* SimpleBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxUITests.swift; sourceTree = "<group>"; };
+		42F26F0922C95D7D0005E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F26EDF22C95D7B0005E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26EF522C95D7D0005E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26F0022C95D7D0005E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F26ED922C95D7B0005E702 = {
+			isa = PBXGroup;
+			children = (
+				42F26EE422C95D7B0005E702 /* SimpleBox */,
+				42F26EFB22C95D7D0005E702 /* SimpleBoxTests */,
+				42F26F0622C95D7D0005E702 /* SimpleBoxUITests */,
+				42F26EE322C95D7B0005E702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F26EE322C95D7B0005E702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F26EE222C95D7B0005E702 /* SimpleBox.app */,
+				42F26EF822C95D7D0005E702 /* SimpleBoxTests.xctest */,
+				42F26F0322C95D7D0005E702 /* SimpleBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F26EE422C95D7B0005E702 /* SimpleBox */ = {
+			isa = PBXGroup;
+			children = (
+				42F26EE522C95D7B0005E702 /* AppDelegate.swift */,
+				42F26EE722C95D7B0005E702 /* art.scnassets */,
+				42F26EE922C95D7B0005E702 /* ViewController.swift */,
+				42F26EEB22C95D7B0005E702 /* Main.storyboard */,
+				42F26EEE22C95D7C0005E702 /* Assets.xcassets */,
+				42F26EF022C95D7C0005E702 /* LaunchScreen.storyboard */,
+				42F26EF322C95D7D0005E702 /* Info.plist */,
+			);
+			path = SimpleBox;
+			sourceTree = "<group>";
+		};
+		42F26EFB22C95D7D0005E702 /* SimpleBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F26EFC22C95D7D0005E702 /* SimpleBoxTests.swift */,
+				42F26EFE22C95D7D0005E702 /* Info.plist */,
+			);
+			path = SimpleBoxTests;
+			sourceTree = "<group>";
+		};
+		42F26F0622C95D7D0005E702 /* SimpleBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42F26F0722C95D7D0005E702 /* SimpleBoxUITests.swift */,
+				42F26F0922C95D7D0005E702 /* Info.plist */,
+			);
+			path = SimpleBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F26EE122C95D7B0005E702 /* SimpleBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F26F0C22C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBox" */;
+			buildPhases = (
+				42F26EDE22C95D7B0005E702 /* Sources */,
+				42F26EDF22C95D7B0005E702 /* Frameworks */,
+				42F26EE022C95D7B0005E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBox;
+			productName = SimpleBox;
+			productReference = 42F26EE222C95D7B0005E702 /* SimpleBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F26EF722C95D7D0005E702 /* SimpleBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F26F0F22C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBoxTests" */;
+			buildPhases = (
+				42F26EF422C95D7D0005E702 /* Sources */,
+				42F26EF522C95D7D0005E702 /* Frameworks */,
+				42F26EF622C95D7D0005E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F26EFA22C95D7D0005E702 /* PBXTargetDependency */,
+			);
+			name = SimpleBoxTests;
+			productName = SimpleBoxTests;
+			productReference = 42F26EF822C95D7D0005E702 /* SimpleBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42F26F0222C95D7D0005E702 /* SimpleBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F26F1222C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBoxUITests" */;
+			buildPhases = (
+				42F26EFF22C95D7D0005E702 /* Sources */,
+				42F26F0022C95D7D0005E702 /* Frameworks */,
+				42F26F0122C95D7D0005E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F26F0522C95D7D0005E702 /* PBXTargetDependency */,
+			);
+			name = SimpleBoxUITests;
+			productName = SimpleBoxUITests;
+			productReference = 42F26F0322C95D7D0005E702 /* SimpleBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F26EDA22C95D7B0005E702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Turker Koc";
+				TargetAttributes = {
+					42F26EE122C95D7B0005E702 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					42F26EF722C95D7D0005E702 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42F26EE122C95D7B0005E702;
+					};
+					42F26F0222C95D7D0005E702 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42F26EE122C95D7B0005E702;
+					};
+				};
+			};
+			buildConfigurationList = 42F26EDD22C95D7B0005E702 /* Build configuration list for PBXProject "SimpleBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F26ED922C95D7B0005E702;
+			productRefGroup = 42F26EE322C95D7B0005E702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F26EE122C95D7B0005E702 /* SimpleBox */,
+				42F26EF722C95D7D0005E702 /* SimpleBoxTests */,
+				42F26F0222C95D7D0005E702 /* SimpleBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F26EE022C95D7B0005E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F26EE822C95D7B0005E702 /* art.scnassets in Resources */,
+				42F26EF222C95D7C0005E702 /* LaunchScreen.storyboard in Resources */,
+				42F26EEF22C95D7C0005E702 /* Assets.xcassets in Resources */,
+				42F26EED22C95D7B0005E702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26EF622C95D7D0005E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26F0122C95D7D0005E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F26EDE22C95D7B0005E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F26EEA22C95D7B0005E702 /* ViewController.swift in Sources */,
+				42F26EE622C95D7B0005E702 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26EF422C95D7D0005E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F26EFD22C95D7D0005E702 /* SimpleBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F26EFF22C95D7D0005E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F26F0822C95D7D0005E702 /* SimpleBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F26EFA22C95D7D0005E702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F26EE122C95D7B0005E702 /* SimpleBox */;
+			targetProxy = 42F26EF922C95D7D0005E702 /* PBXContainerItemProxy */;
+		};
+		42F26F0522C95D7D0005E702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F26EE122C95D7B0005E702 /* SimpleBox */;
+			targetProxy = 42F26F0422C95D7D0005E702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F26EEB22C95D7B0005E702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F26EEC22C95D7B0005E702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F26EF022C95D7C0005E702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F26EF122C95D7C0005E702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F26F0A22C95D7D0005E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F26F0B22C95D7D0005E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F26F0D22C95D7D0005E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F26F0E22C95D7D0005E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42F26F1022C95D7D0005E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBox.app/SimpleBox";
+			};
+			name = Debug;
+		};
+		42F26F1122C95D7D0005E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBox.app/SimpleBox";
+			};
+			name = Release;
+		};
+		42F26F1322C95D7D0005E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleBox;
+			};
+			name = Debug;
+		};
+		42F26F1422C95D7D0005E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = SimpleBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F26EDD22C95D7B0005E702 /* Build configuration list for PBXProject "SimpleBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F26F0A22C95D7D0005E702 /* Debug */,
+				42F26F0B22C95D7D0005E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F26F0C22C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F26F0D22C95D7D0005E702 /* Debug */,
+				42F26F0E22C95D7D0005E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F26F0F22C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F26F1022C95D7D0005E702 /* Debug */,
+				42F26F1122C95D7D0005E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F26F1222C95D7D0005E702 /* Build configuration list for PBXNativeTarget "SimpleBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F26F1322C95D7D0005E702 /* Debug */,
+				42F26F1422C95D7D0005E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F26EDA22C95D7B0005E702 /* Project object */;
+}
