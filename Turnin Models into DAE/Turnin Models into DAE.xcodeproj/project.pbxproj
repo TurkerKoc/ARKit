@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421D4F7722CEBC1C00653808 /* background-light.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 421D4F7222CEBC1B00653808 /* background-light.JPG */; };
+		421D4F7822CEBC1C00653808 /* bench.dae in Resources */ = {isa = PBXBuildFile; fileRef = 421D4F7322CEBC1B00653808 /* bench.dae */; };
+		421D4F7922CEBC1C00653808 /* tischholz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421D4F7422CEBC1B00653808 /* tischholz.jpg */; };
+		421D4F7A22CEBC1C00653808 /* _6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421D4F7522CEBC1B00653808 /* _6.jpg */; };
+		421D4F7B22CEBC1C00653808 /* tischholz2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421D4F7622CEBC1B00653808 /* tischholz2.jpg */; };
+		42EDB12622CE978C00CC8FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDB12522CE978C00CC8FC0 /* AppDelegate.swift */; };
+		42EDB12822CE978C00CC8FC0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EDB12722CE978C00CC8FC0 /* art.scnassets */; };
+		42EDB12D22CE978C00CC8FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDB12B22CE978C00CC8FC0 /* Main.storyboard */; };
+		42EDB12F22CE978D00CC8FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EDB12E22CE978D00CC8FC0 /* Assets.xcassets */; };
+		42EDB13222CE978D00CC8FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDB13022CE978D00CC8FC0 /* LaunchScreen.storyboard */; };
+		42EDB13D22CE978E00CC8FC0 /* Turnin_Models_into_DAETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDB13C22CE978E00CC8FC0 /* Turnin_Models_into_DAETests.swift */; };
+		42EDB14822CE978E00CC8FC0 /* Turnin_Models_into_DAEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDB14722CE978E00CC8FC0 /* Turnin_Models_into_DAEUITests.swift */; };
+		42EDB15622CE97B900CC8FC0 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDB15522CE97B900CC8FC0 /* OverlayPlane.swift */; };
+		42EDB15822CE97FB00CC8FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDB15722CE97FB00CC8FC0 /* ViewController.swift */; };
+		42EDB15A22CE980200CC8FC0 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EDB15922CE980200CC8FC0 /* overlay_grid.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EDB13922CE978E00CC8FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EDB11A22CE978C00CC8FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EDB12122CE978C00CC8FC0;
+			remoteInfo = "Turnin Models into DAE";
+		};
+		42EDB14422CE978E00CC8FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EDB11A22CE978C00CC8FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EDB12122CE978C00CC8FC0;
+			remoteInfo = "Turnin Models into DAE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421D4F7222CEBC1B00653808 /* background-light.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-light.JPG"; sourceTree = "<group>"; };
+		421D4F7322CEBC1B00653808 /* bench.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bench.dae; sourceTree = "<group>"; };
+		421D4F7422CEBC1B00653808 /* tischholz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tischholz.jpg; sourceTree = "<group>"; };
+		421D4F7522CEBC1B00653808 /* _6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _6.jpg; sourceTree = "<group>"; };
+		421D4F7622CEBC1B00653808 /* tischholz2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tischholz2.jpg; sourceTree = "<group>"; };
+		42EDB12222CE978C00CC8FC0 /* Turnin Models into DAE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turnin Models into DAE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDB12522CE978C00CC8FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EDB12722CE978C00CC8FC0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		42EDB12C22CE978C00CC8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EDB12E22CE978D00CC8FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EDB13122CE978D00CC8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EDB13322CE978D00CC8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDB13822CE978E00CC8FC0 /* Turnin Models into DAETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turnin Models into DAETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDB13C22CE978E00CC8FC0 /* Turnin_Models_into_DAETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turnin_Models_into_DAETests.swift; sourceTree = "<group>"; };
+		42EDB13E22CE978E00CC8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDB14322CE978E00CC8FC0 /* Turnin Models into DAEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turnin Models into DAEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDB14722CE978E00CC8FC0 /* Turnin_Models_into_DAEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turnin_Models_into_DAEUITests.swift; sourceTree = "<group>"; };
+		42EDB14922CE978E00CC8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDB15522CE97B900CC8FC0 /* OverlayPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		42EDB15722CE97FB00CC8FC0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EDB15922CE980200CC8FC0 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EDB11F22CE978C00CC8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB13522CE978E00CC8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB14022CE978E00CC8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EDB11922CE978C00CC8FC0 = {
+			isa = PBXGroup;
+			children = (
+				42EDB12422CE978C00CC8FC0 /* Turnin Models into DAE */,
+				42EDB13B22CE978E00CC8FC0 /* Turnin Models into DAETests */,
+				42EDB14622CE978E00CC8FC0 /* Turnin Models into DAEUITests */,
+				42EDB12322CE978C00CC8FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EDB12322CE978C00CC8FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EDB12222CE978C00CC8FC0 /* Turnin Models into DAE.app */,
+				42EDB13822CE978E00CC8FC0 /* Turnin Models into DAETests.xctest */,
+				42EDB14322CE978E00CC8FC0 /* Turnin Models into DAEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EDB12422CE978C00CC8FC0 /* Turnin Models into DAE */ = {
+			isa = PBXGroup;
+			children = (
+				421D4F7522CEBC1B00653808 /* _6.jpg */,
+				421D4F7222CEBC1B00653808 /* background-light.JPG */,
+				421D4F7322CEBC1B00653808 /* bench.dae */,
+				421D4F7422CEBC1B00653808 /* tischholz.jpg */,
+				421D4F7622CEBC1B00653808 /* tischholz2.jpg */,
+				42EDB12522CE978C00CC8FC0 /* AppDelegate.swift */,
+				42EDB12722CE978C00CC8FC0 /* art.scnassets */,
+				42EDB15522CE97B900CC8FC0 /* OverlayPlane.swift */,
+				42EDB15922CE980200CC8FC0 /* overlay_grid.png */,
+				42EDB15722CE97FB00CC8FC0 /* ViewController.swift */,
+				42EDB12B22CE978C00CC8FC0 /* Main.storyboard */,
+				42EDB12E22CE978D00CC8FC0 /* Assets.xcassets */,
+				42EDB13022CE978D00CC8FC0 /* LaunchScreen.storyboard */,
+				42EDB13322CE978D00CC8FC0 /* Info.plist */,
+			);
+			path = "Turnin Models into DAE";
+			sourceTree = "<group>";
+		};
+		42EDB13B22CE978E00CC8FC0 /* Turnin Models into DAETests */ = {
+			isa = PBXGroup;
+			children = (
+				42EDB13C22CE978E00CC8FC0 /* Turnin_Models_into_DAETests.swift */,
+				42EDB13E22CE978E00CC8FC0 /* Info.plist */,
+			);
+			path = "Turnin Models into DAETests";
+			sourceTree = "<group>";
+		};
+		42EDB14622CE978E00CC8FC0 /* Turnin Models into DAEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EDB14722CE978E00CC8FC0 /* Turnin_Models_into_DAEUITests.swift */,
+				42EDB14922CE978E00CC8FC0 /* Info.plist */,
+			);
+			path = "Turnin Models into DAEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EDB12122CE978C00CC8FC0 /* Turnin Models into DAE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDB14C22CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAE" */;
+			buildPhases = (
+				42EDB11E22CE978C00CC8FC0 /* Sources */,
+				42EDB11F22CE978C00CC8FC0 /* Frameworks */,
+				42EDB12022CE978C00CC8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turnin Models into DAE";
+			productName = "Turnin Models into DAE";
+			productReference = 42EDB12222CE978C00CC8FC0 /* Turnin Models into DAE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EDB13722CE978E00CC8FC0 /* Turnin Models into DAETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDB14F22CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAETests" */;
+			buildPhases = (
+				42EDB13422CE978E00CC8FC0 /* Sources */,
+				42EDB13522CE978E00CC8FC0 /* Frameworks */,
+				42EDB13622CE978E00CC8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EDB13A22CE978E00CC8FC0 /* PBXTargetDependency */,
+			);
+			name = "Turnin Models into DAETests";
+			productName = "Turnin Models into DAETests";
+			productReference = 42EDB13822CE978E00CC8FC0 /* Turnin Models into DAETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EDB14222CE978E00CC8FC0 /* Turnin Models into DAEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDB15222CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAEUITests" */;
+			buildPhases = (
+				42EDB13F22CE978E00CC8FC0 /* Sources */,
+				42EDB14022CE978E00CC8FC0 /* Frameworks */,
+				42EDB14122CE978E00CC8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EDB14522CE978E00CC8FC0 /* PBXTargetDependency */,
+			);
+			name = "Turnin Models into DAEUITests";
+			productName = "Turnin Models into DAEUITests";
+			productReference = 42EDB14322CE978E00CC8FC0 /* Turnin Models into DAEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EDB11A22CE978C00CC8FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Turker Koc";
+				TargetAttributes = {
+					42EDB12122CE978C00CC8FC0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					42EDB13722CE978E00CC8FC0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42EDB12122CE978C00CC8FC0;
+					};
+					42EDB14222CE978E00CC8FC0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42EDB12122CE978C00CC8FC0;
+					};
+				};
+			};
+			buildConfigurationList = 42EDB11D22CE978C00CC8FC0 /* Build configuration list for PBXProject "Turnin Models into DAE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EDB11922CE978C00CC8FC0;
+			productRefGroup = 42EDB12322CE978C00CC8FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EDB12122CE978C00CC8FC0 /* Turnin Models into DAE */,
+				42EDB13722CE978E00CC8FC0 /* Turnin Models into DAETests */,
+				42EDB14222CE978E00CC8FC0 /* Turnin Models into DAEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EDB12022CE978C00CC8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDB12822CE978C00CC8FC0 /* art.scnassets in Resources */,
+				421D4F7B22CEBC1C00653808 /* tischholz2.jpg in Resources */,
+				421D4F7822CEBC1C00653808 /* bench.dae in Resources */,
+				421D4F7A22CEBC1C00653808 /* _6.jpg in Resources */,
+				42EDB15A22CE980200CC8FC0 /* overlay_grid.png in Resources */,
+				421D4F7722CEBC1C00653808 /* background-light.JPG in Resources */,
+				421D4F7922CEBC1C00653808 /* tischholz.jpg in Resources */,
+				42EDB13222CE978D00CC8FC0 /* LaunchScreen.storyboard in Resources */,
+				42EDB12F22CE978D00CC8FC0 /* Assets.xcassets in Resources */,
+				42EDB12D22CE978C00CC8FC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB13622CE978E00CC8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB14122CE978E00CC8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EDB11E22CE978C00CC8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDB15822CE97FB00CC8FC0 /* ViewController.swift in Sources */,
+				42EDB15622CE97B900CC8FC0 /* OverlayPlane.swift in Sources */,
+				42EDB12622CE978C00CC8FC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB13422CE978E00CC8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDB13D22CE978E00CC8FC0 /* Turnin_Models_into_DAETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB13F22CE978E00CC8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDB14822CE978E00CC8FC0 /* Turnin_Models_into_DAEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EDB13A22CE978E00CC8FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EDB12122CE978C00CC8FC0 /* Turnin Models into DAE */;
+			targetProxy = 42EDB13922CE978E00CC8FC0 /* PBXContainerItemProxy */;
+		};
+		42EDB14522CE978E00CC8FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EDB12122CE978C00CC8FC0 /* Turnin Models into DAE */;
+			targetProxy = 42EDB14422CE978E00CC8FC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EDB12B22CE978C00CC8FC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EDB12C22CE978C00CC8FC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EDB13022CE978D00CC8FC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EDB13122CE978D00CC8FC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EDB14A22CE978E00CC8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EDB14B22CE978E00CC8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EDB14D22CE978E00CC8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42EDB14E22CE978E00CC8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TurkerKoc.SimpleBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42EDB15022CE978E00CC8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.Turnin-Models-into-DAETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turnin Models into DAE.app/Turnin Models into DAE";
+			};
+			name = Debug;
+		};
+		42EDB15122CE978E00CC8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.Turnin-Models-into-DAETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turnin Models into DAE.app/Turnin Models into DAE";
+			};
+			name = Release;
+		};
+		42EDB15322CE978E00CC8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.Turnin-Models-into-DAEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Turnin Models into DAE";
+			};
+			name = Debug;
+		};
+		42EDB15422CE978E00CC8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ6WXQL294;
+				INFOPLIST_FILE = "Turnin Models into DAEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TurkerKoc.Turnin-Models-into-DAEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Turnin Models into DAE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EDB11D22CE978C00CC8FC0 /* Build configuration list for PBXProject "Turnin Models into DAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDB14A22CE978E00CC8FC0 /* Debug */,
+				42EDB14B22CE978E00CC8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EDB14C22CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDB14D22CE978E00CC8FC0 /* Debug */,
+				42EDB14E22CE978E00CC8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EDB14F22CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDB15022CE978E00CC8FC0 /* Debug */,
+				42EDB15122CE978E00CC8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EDB15222CE978E00CC8FC0 /* Build configuration list for PBXNativeTarget "Turnin Models into DAEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDB15322CE978E00CC8FC0 /* Debug */,
+				42EDB15422CE978E00CC8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EDB11A22CE978C00CC8FC0 /* Project object */;
+}
